@@ -24,9 +24,11 @@ I run **[The AI Business Playbook](https://wyattbrocato.site)**: practical AI sy
 
 ### Where to find me
 
-- 🐦 [X / Twitter](https://x.com/thewyattbrocato): "Stopping crime @Flock_Safety | Ignoring 99% of AI news"
+- 🐦 [X / Twitter](https://x.com/intent/user?screen_name=thewyattbrocato): "Stopping crime @Flock_Safety | Ignoring 99% of AI news"
+- 📸 [Instagram](https://www.instagram.com/thewyattbrocato/)
 - 💼 [LinkedIn](https://www.linkedin.com/in/wyattbrocato/)
 - 🌐 [wyattbrocato.site](https://wyattbrocato.site)
+- 📰 [Substack](https://substack.com/@wyattbrocato)
 - ✉️ [The AI Business Playbook newsletter](https://wyattbrocato.site) (Kit)
 
 ---
