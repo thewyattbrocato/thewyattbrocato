@@ -1,6 +1,6 @@
 # Hi, I'm Wyatt 👋
 
-**Stopping crime at [Flock](https://flocksafety.com) · Nashville, TN** — technical project management, stakeholder comms, and cross-functional delivery for public-safety tech.
+**Stopping crime at [Flock](https://flocksafety.com) · Nashville, TN** : technical project management, stakeholder comms, and cross-functional delivery for public-safety tech.
 
 I run **[The AI Business Playbook](https://wyattbrocato.site)** — practical AI systems for professionals doing real work. I ignore 99% of AI news to focus on the 1% that matters: more leverage, not more AI.
 
