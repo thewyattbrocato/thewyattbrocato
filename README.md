@@ -16,7 +16,7 @@ I run **[The AI Business Playbook](https://wyattbrocato.site)**: practical AI sy
 
 ### Currently
 
-- Shipping the **AI Leverage Field Guide** (public soon): open-sourcing what I've learned so others can skip the hype.
+- Shipping the **AI Leverage Field Guide**: open-sourcing what I've learned so others can skip the hype.
 - Reading my way through learning science and product so the guides stay grounded, not trendy.
 - At Flock: turning cross-functional chaos into shipped public-safety features.
 
