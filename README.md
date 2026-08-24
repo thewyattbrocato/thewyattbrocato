@@ -1,36 +1,54 @@
-# Hi, I'm Wyatt 👋
+# Wyatt Brocato
 
-**Stopping crime at [Flock](https://flocksafety.com) · Nashville, TN**: technical project management, stakeholder comms, and cross-functional delivery for public-safety tech.
+I build practical AI and workflow systems for professionals who want more
+leverage from real work, not more tools.
 
-I run **[The AI Business Playbook](https://wyattbrocato.site)**: practical AI systems for professionals doing real work. I ignore 99% of AI news to focus on the 1% that matters: more leverage, not more AI.
+I'm a technical project manager at [Flock][flock], working on public-safety
+technology. I also write [The AI Business Playbook][playbook] about practical
+AI systems for people doing real work.
 
----
+## Start here
 
-### What I'm building
+- **[AI Workstyle Quiz][quiz]**: a free 3-minute quiz to find the work bottleneck
+  where AI might actually help.
+- **[AI Leverage Field Guide][field-guide]**: open workflow guides for working
+  professionals who want more leverage, not more AI.
 
-- **[AI Leverage Field Guide](https://github.com/thewyattbrocato/ai-leverage-field-guide)**: a free, open collection of original workflow guides + curated free AI resources, distilled from a sourced canon of learning science, product, writing, and persuasion.
-- **[AI Workstyle Quiz](https://workstyle.wyattbrocato.site)**: a free 3-minute quiz that points you to the AI systems actually worth your time.
-- **[The AI Business Playbook](https://wyattbrocato.site)** (newsletter via Kit): short, practical notes for people who'd rather ship than scroll.
+## Selected work
 
----
+- **[AI Leverage Field Guide][field-guide]**: practical workflow guides and
+  curated AI resources for applying AI without outsourcing judgment.
+- **[Scam First Aid][scam-first-aid]**: browser-only help after a scam, with
+  ordered next steps and family conversation scripts.
+- **[csm-kit][csm-kit]**: evidence-cited Customer Success briefs built from the
+  exports teams already have.
+- **[Leverage Library][leverage-library]**: sourced, attributed ideas organized
+  by how they create leverage.
 
-### Currently
+## Now
 
-- Shipping the **AI Leverage Field Guide**: open-sourcing what I've learned so others can skip the hype.
-- Reading my way through learning science and product so the guides stay grounded, not trendy.
-- At Flock: turning cross-functional chaos into shipped public-safety features.
+- Focus: practical AI systems, workflow design, and products for people doing
+  real work.
+- Point of view: use AI for structure; keep judgment, context, and
+  accountability human.
 
----
+## Find me
 
-### Where to find me
-
-- 🐦 [X / Twitter](https://x.com/intent/user?screen_name=thewyattbrocato): "Stopping crime @Flock_Safety | Ignoring 99% of AI news"
-- 📸 [Instagram](https://www.instagram.com/thewyattbrocato/)
-- 💼 [LinkedIn](https://www.linkedin.com/in/wyattbrocato/)
-- 🌐 [wyattbrocato.site](https://wyattbrocato.site)
-- 📰 [Substack](https://substack.com/@wyattbrocato)
-- ✉️ [The AI Business Playbook newsletter](https://wyattbrocato.site) (Kit)
-
----
+- **[The AI Business Playbook][playbook]**: practical AI systems for
+  professionals doing real work.
+- **[Website][website]**
+- **[X][x]**
+- **[LinkedIn][linkedin]**
 
 *Filter the noise. Build leverage.*
+
+[flock]: https://flocksafety.com/
+[playbook]: https://subscribe.wyattbrocato.site/
+[quiz]: https://workstyle.wyattbrocato.site/
+[field-guide]: https://github.com/thewyattbrocato/ai-leverage-field-guide
+[scam-first-aid]: https://github.com/thewyattbrocato/scamfirstaid
+[csm-kit]: https://github.com/thewyattbrocato/csm-kit
+[leverage-library]: https://github.com/thewyattbrocato/leverage-library
+[website]: https://wyattbrocato.site/
+[x]: https://x.com/thewyattbrocato
+[linkedin]: https://www.linkedin.com/in/wyattbrocato/
