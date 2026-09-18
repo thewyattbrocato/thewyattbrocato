@@ -27,6 +27,12 @@ source row; unsupported facts fail closed into an evidence-gap checklist.
 
 ### More public products
 
+#### Live product screenshots
+
+| [5-Task Swap][task-swap] | [Subscribe Page][subscribe] | [Personal site][website] |
+| --- | --- | --- |
+| ![5-Task Swap live product screenshot showing the four-decision diagnostic][task-swap-screenshot] | ![Subscribe Page live product screenshot showing the AI Business Playbook signup surface][subscribe-screenshot] | ![Personal site live screenshot showing the practical AI work systems homepage][website-screenshot] |
+
 #### [5-Task Swap][task-swap]
 
 A four-decision diagnostic that turns one recurring task into an explained fit
@@ -137,5 +143,8 @@ linked here only after their public source and documentation are ready.
 [scam-first-aid]: https://github.com/thewyattbrocato/scamfirstaid
 [scam-live]: https://thewyattbrocato.github.io/scamfirstaid/
 [subscribe]: https://ai-business-playbook-subscribe.netlify.app/
+[subscribe-screenshot]: assets/screenshots/subscribe-page.png
 [task-swap]: https://ai-business-playbook-task-swap.netlify.app/
+[task-swap-screenshot]: assets/screenshots/task-swap.png
 [website]: https://wyattbrocato.site/
+[website-screenshot]: assets/screenshots/personal-site.png

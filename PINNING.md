@@ -16,12 +16,13 @@ are public on GitHub today.
 3. **[ai-leverage-field-guide](https://github.com/thewyattbrocato/ai-leverage-field-guide)**:
    demonstrates information architecture, interactive static delivery,
    accessibility, and documented human-review boundaries.
-4. **[leverage-library](https://github.com/thewyattbrocato/leverage-library)**:
-   demonstrates source governance, static generation, and fail-closed content
-   rules. Add a concise GitHub repository description before pinning it.
 
 ## Do not pin yet
 
+- **[leverage-library](https://github.com/thewyattbrocato/leverage-library)** is
+  public and demonstrates source governance, static generation, and fail-closed
+  content rules, but it should wait until the GitHub repository has a concise
+  description.
 - **CSE Command Center**, **Wizard101 Battle Advisor**, **CCFT**, and
   **developer bootstrap** do not currently have verified public GitHub
   repositories. Mention them in the profile without implying open source.
