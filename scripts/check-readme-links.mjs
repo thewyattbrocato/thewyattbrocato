@@ -166,6 +166,15 @@ async function validateLocalTarget(target, source, explicitImage) {
   }
 }
 
+function isAutomatedCheckBlock(target, response, wantsImage) {
+  if (wantsImage || response.status !== 999) {
+    return false;
+  }
+
+  const { hostname } = new URL(target);
+  return hostname === "linkedin.com" || hostname.endsWith(".linkedin.com");
+}
+
 async function fetchWithTimeout(url, options) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 15000);
@@ -202,6 +211,10 @@ async function validateExternalTarget(target, source, explicitImage) {
     }
   } catch (error) {
     failures.push(`${source}: failed to reach ${target}: ${error.message}`);
+    return;
+  }
+
+  if (isAutomatedCheckBlock(target, response, wantsImage)) {
     return;
   }
 
