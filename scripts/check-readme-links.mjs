@@ -80,6 +80,27 @@ function parseMarkdownTargets(markdown, filePath) {
   return targets;
 }
 
+function validateProfileStructure(markdown, filePath) {
+  if (filePath !== "README.md") {
+    return;
+  }
+
+  const withoutCodeFences = markdown.replace(/^```[\s\S]*?^```\s*$/gm, "");
+  const h1Count = (withoutCodeFences.match(/^#\s+\S.*$/gm) || []).length;
+
+  if (h1Count !== 1) {
+    failures.push(`${filePath}: expected exactly one level-one heading`);
+  }
+
+  if (/^ {0,3}#{3,6}\s+/m.test(withoutCodeFences)) {
+    failures.push(`${filePath}: profile sections must not nest below level two`);
+  }
+
+  if (/^\s*\|?.+\|.+\n\s*\|?\s*:?-{3,}/m.test(withoutCodeFences)) {
+    failures.push(`${filePath}: profile layout must not use Markdown tables`);
+  }
+}
+
 function splitFragment(rawTarget) {
   const hashIndex = rawTarget.indexOf("#");
   if (hashIndex === -1) {
@@ -262,6 +283,7 @@ async function validateTarget(target) {
 
 for (const filePath of filesToCheck) {
   const markdown = await readFile(path.resolve(repoRoot, filePath), "utf8");
+  validateProfileStructure(markdown, filePath);
   const targets = parseMarkdownTargets(markdown, filePath);
 
   for (const target of targets) {
