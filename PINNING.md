@@ -10,19 +10,12 @@ are public on GitHub today.
    product proof. It has committed demo code and generated output, concise
    setup, deterministic behavior tests, architecture visuals, and a clear
    trust mechanism.
-2. **[scamfirstaid](https://github.com/thewyattbrocato/scamfirstaid)**: demonstrates
-   safety-sensitive product thinking, privacy boundaries, accessible delivery,
-   content validation, and browser-level testing.
-3. **[ai-leverage-field-guide](https://github.com/thewyattbrocato/ai-leverage-field-guide)**:
-   demonstrates information architecture, interactive static delivery,
-   accessibility, and documented human-review boundaries.
 
 ## Do not pin yet
 
-- **[leverage-library](https://github.com/thewyattbrocato/leverage-library)** is
-  public and demonstrates source governance, static generation, and fail-closed
-  content rules, but it should wait until the GitHub repository has a concise
-  description.
+- **scamfirstaid**, **ai-leverage-field-guide**, and **leverage-library** should
+  wait until their public GitHub repositories and live surfaces verify cleanly
+  from an unauthenticated check.
 - **CSE Command Center**, **Wizard101 Battle Advisor**, **CCFT**, and
   **developer bootstrap** do not currently have verified public GitHub
   repositories. Mention them in the profile without implying open source.

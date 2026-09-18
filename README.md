@@ -50,17 +50,17 @@ source not public
 A cohesive product narrative connecting the operating method, worked example,
 diagnostic, and newsletter. **Status:** live product · source not public
 
-#### [Scam First Aid][scam-first-aid]
+#### Scam First Aid
 
 A browser-only post-scam triage wizard, ordered action plans, and family
 conversation scripts. User input never leaves the device. **Status:** shipped ·
-[live site][scam-live] · public source
+public GitHub mirror and live link not verified yet
 
-#### [AI Leverage Field Guide][field-guide]
+#### AI Leverage Field Guide
 
 Interactive, role-based workflow guides with local progress tracking and
-explicit human review boundaries. **Status:** shipped ·
-[live guide][field-guide-live] · public source
+explicit human review boundaries. **Status:** shipped · public GitHub mirror
+and live link not verified yet
 
 ## Current build portfolio
 
@@ -101,14 +101,11 @@ csmkit brief \
 The public repository includes behavior tests, reproducible examples, an MIT
 license, and a committed browser-demo implementation.
 
-### Other public repositories
+### Other repository work
 
-- **[Scam First Aid][scam-first-aid]**: vanilla JavaScript, content-as-data,
-  official-domain validation, plain-language checks, and headless-browser tests.
-- **[AI Leverage Field Guide][field-guide]**: an accessible static learning
-  product with link checking and local-only interactive state.
-- **[Leverage Library][leverage-library]**: a generated, sourced idea library
-  with fail-closed source rules and committed static output.
+Several GitLab-era projects are being prepared for GitHub again. I only link
+them here after their public source, documentation, and live surfaces verify
+cleanly from an unauthenticated check.
 
 ## GitHub and GitLab
 
@@ -135,11 +132,6 @@ linked here only after their public source and documentation are ready.
 [csm-banner]: https://raw.githubusercontent.com/thewyattbrocato/csm-kit/main/docs/assets/banner.svg
 [csm-kit]: https://github.com/thewyattbrocato/csm-kit
 [csm-output]: https://github.com/thewyattbrocato/csm-kit/blob/main/examples/example-renewal-brief.md
-[field-guide]: https://github.com/thewyattbrocato/ai-leverage-field-guide
-[field-guide-live]: https://thewyattbrocato.github.io/ai-leverage-field-guide/
-[leverage-library]: https://github.com/thewyattbrocato/leverage-library
-[scam-first-aid]: https://github.com/thewyattbrocato/scamfirstaid
-[scam-live]: https://thewyattbrocato.github.io/scamfirstaid/
 [subscribe]: https://ai-business-playbook-subscribe.netlify.app/
 [subscribe-screenshot]: assets/screenshots/subscribe-page.png
 [task-swap]: https://ai-business-playbook-task-swap.netlify.app/
