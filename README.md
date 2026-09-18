@@ -31,7 +31,7 @@ source row; unsupported facts fail closed into an evidence-gap checklist.
 
 | [5-Task Swap][task-swap] | [Subscribe Page][subscribe] | [Personal site][website] |
 | --- | --- | --- |
-| ![5-Task Swap live product screenshot showing the four-decision diagnostic][task-swap-screenshot] | ![Subscribe Page live product screenshot showing the AI Business Playbook signup surface][subscribe-screenshot] | ![Personal site live screenshot showing the practical AI work systems homepage][website-screenshot] |
+| ![Task Swap][task-swap-screenshot] | ![Subscribe][subscribe-screenshot] | ![Site][website-screenshot] |
 
 #### [5-Task Swap][task-swap]
 
@@ -75,9 +75,7 @@ repositories or present work as open source without a verifiable public source.
 - **Developer bootstrap**: repeatable developer-environment setup work; the
   implementation does not currently have a public source link here.
 
-These projects belong in the portfolio narrative, but not in GitHub's pinned
-repositories until a durable public source or demo exists. See the
-[pinning rationale](PINNING.md) for the current recommendation.
+For GitHub pin choices, see the [pinning rationale](PINNING.md).
 
 ## Public engineering work
 

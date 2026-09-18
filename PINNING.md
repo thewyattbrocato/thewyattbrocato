@@ -1,6 +1,6 @@
 # Pinned-project recommendation
 
-GitHub pins should show the strongest public engineering proof, not repeat every
+GitHub pins should show the strongest public engineering proof, not every
 product named in the profile. This recommendation uses only repositories that
 are public on GitHub today.
 
