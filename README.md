@@ -35,7 +35,7 @@ judgment at the final gate.
 
 - **Focus:** practical systems for Customer Success, workflow design, and
   evidence-led decisions.
-- **Current builds:** CSE Command Center, Wizard101 Battle Advisor, CCFT, and
+- **Current builds:** CSE Command Center, CCFT, and
   developer bootstrap. I do not link private repositories or imply public
   source where none has been verified.
 - **Public transition:** GitHub is active again, but it is not yet a complete
