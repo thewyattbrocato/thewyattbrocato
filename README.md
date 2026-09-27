@@ -1,11 +1,10 @@
+<div align="center">
+  <img src="assets/profile-header.svg" alt="Wyatt Brocato — Practical AI work systems" width="1280" />
+</div>
+
 # Wyatt Brocato
 
-I build practical systems for Customer Success, professional workflows, and
-evidence-led decisions.
-
-I turn ambiguous operating problems into bounded products: define the decision,
-make the evidence inspectable, ship the smallest useful workflow, and keep human
-judgment at the final gate.
+I build practical AI work systems for experienced professionals: rough inputs become work you can stand behind, with context, risk, and approval staying human.
 
 ## Start here
 
@@ -20,38 +19,36 @@ judgment at the final gate.
 - **[csm-kit][csm-kit]**: evidence-cited Customer Success briefs with explicit
   evidence gaps instead of unsupported claims.
 - **[Subscribe Page][subscribe]**: a focused signup surface for The AI Business
-  Playbook. The product is live; its source is not public.
+  Playbook. Live; source is not public.
 - **[Personal site][website]**: the product narrative connecting my operating
-  method, worked example, diagnostic, and newsletter. The site is live; its
-  source is not public.
+  method, worked example, diagnostic, and newsletter. Live; source is not
+  public.
 - **Scam First Aid**: browser-only post-scam triage and family conversation
-  scripts. It is shipped, but its public GitHub mirror and live link are not yet
+  scripts. Shipped; the public GitHub mirror and live link are not yet
   verified.
 - **AI Leverage Field Guide**: interactive, role-based workflow guides with
-  local progress tracking and explicit human-review boundaries. It is shipped,
-  but its public GitHub mirror and live link are not yet verified.
+  local progress tracking and explicit human-review boundaries. Shipped; the
+  public GitHub mirror and live link are not yet verified.
 
 ## Now
 
 - **Focus:** practical systems for Customer Success, workflow design, and
   evidence-led decisions.
-- **Current builds:** CSE Command Center, CCFT, and
-  developer bootstrap. I do not link private repositories or imply public
-  source where none has been verified.
+- **Current builds:** CSE Command Center, CCFT, and developer bootstrap.
+  I don't link private repos, and I don't imply public source where none is
+  verified.
 - **Public transition:** GitHub is active again, but it is not yet a complete
   mirror of my public [GitLab work][gitlab].
 - **Point of view:** use automation for structure and repetition; keep context,
   risk, and approval human.
-- **Pins:** see the maintained [pinned-project guidance](PINNING.md) for the
-  current public-source recommendations.
+- **Pins:** pin choices follow the [pinned-project guidance](PINNING.md).
 
 ## Find me
 
-- **[The AI Business Playbook][subscribe]**: practical AI systems for
-  professionals doing real work.
-- **[Website][website]**
-- **[LinkedIn][linkedin]**
-- **[GitLab][gitlab]**
+[![Website](https://img.shields.io/badge/Website-wyattbrocato.site-073e31?style=flat-square&logo=googlechrome&logoColor=white)][website]
+[![Newsletter](https://img.shields.io/badge/Newsletter-The_AI_Business_Playbook-073e31?style=flat-square&logo=substack&logoColor=white)][subscribe]
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-wyattbrocato-0A66C2?style=flat-square&logo=linkedin&logoColor=white)][linkedin]
+[![GitLab](https://img.shields.io/badge/GitLab-wcbrocato-FC6D26?style=flat-square&logo=gitlab&logoColor=white)][gitlab]
 
 *Evidence before confidence. Build leverage.*
 
