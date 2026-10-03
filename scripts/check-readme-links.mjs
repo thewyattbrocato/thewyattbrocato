@@ -37,9 +37,24 @@ function parseReferenceDefinitions(markdown) {
   return refs;
 }
 
+function resolveReference(refs, label, filePath) {
+  const rawTarget = refs.get(normalizeReference(label));
+
+  if (!rawTarget) {
+    failures.push(`${filePath}: missing reference definition [${label}]`);
+  }
+
+  return rawTarget;
+}
+
 function parseMarkdownTargets(markdown, filePath) {
   const refs = parseReferenceDefinitions(markdown);
   const targets = [];
+  const destination = String.raw`\(([^)\s]+)(?:\s+["'][^)]*["'])?\)`;
+  const linkedImagePattern = new RegExp(
+    String.raw`\[!\[[^\]\n]*\](?:${destination}|\[([^\]\n]+)\])\](?:${destination}|\[([^\]\n]+)\])`,
+    "g",
+  );
   const inlinePattern = /(!?)\[[^\]\n]*\]\(([^)\s]+)(?:\s+["'][^)]*["'])?\)/g;
   const referencePattern = /(!?)\[([^\]\n]+)\]\[([^\]\n]+)\]/g;
   const autoLinkPattern = /<((?:https?:\/\/|mailto:)[^>\s]+)>/g;
@@ -47,7 +62,25 @@ function parseMarkdownTargets(markdown, filePath) {
   const htmlImageAttributePattern = /\s(src|srcset)\s*=\s*(["'])(.*?)\2/gi;
   let match;
 
-  while ((match = inlinePattern.exec(markdown)) !== null) {
+  // A linked image such as a badge, [![alt](image)][link], holds two targets:
+  // the image and the link. Read both here, then blank the construct so the
+  // plain link patterns below cannot misread it as one link to the image.
+  while ((match = linkedImagePattern.exec(markdown)) !== null) {
+    const imageTarget = match[1] || resolveReference(refs, match[2], filePath);
+    const linkTarget = match[3] || resolveReference(refs, match[4], filePath);
+
+    if (imageTarget) {
+      targets.push({ source: filePath, rawTarget: imageTarget, isImage: true });
+    }
+
+    if (linkTarget) {
+      targets.push({ source: filePath, rawTarget: linkTarget, isImage: false });
+    }
+  }
+
+  const unlinkedMarkdown = markdown.replace(linkedImagePattern, " ");
+
+  while ((match = inlinePattern.exec(unlinkedMarkdown)) !== null) {
     targets.push({
       source: filePath,
       rawTarget: match[2],
@@ -55,12 +88,10 @@ function parseMarkdownTargets(markdown, filePath) {
     });
   }
 
-  while ((match = referencePattern.exec(markdown)) !== null) {
-    const reference = normalizeReference(match[3]);
-    const rawTarget = refs.get(reference);
+  while ((match = referencePattern.exec(unlinkedMarkdown)) !== null) {
+    const rawTarget = resolveReference(refs, match[3], filePath);
 
     if (!rawTarget) {
-      failures.push(`${filePath}: missing reference definition [${match[3]}]`);
       continue;
     }
 
@@ -71,7 +102,7 @@ function parseMarkdownTargets(markdown, filePath) {
     });
   }
 
-  while ((match = autoLinkPattern.exec(markdown)) !== null) {
+  while ((match = autoLinkPattern.exec(unlinkedMarkdown)) !== null) {
     targets.push({
       source: filePath,
       rawTarget: match[1],
@@ -79,7 +110,7 @@ function parseMarkdownTargets(markdown, filePath) {
     });
   }
 
-  while ((match = htmlImageTagPattern.exec(markdown)) !== null) {
+  while ((match = htmlImageTagPattern.exec(unlinkedMarkdown)) !== null) {
     for (const [, attribute, , value] of match[0].matchAll(htmlImageAttributePattern)) {
       const candidates =
         attribute.toLowerCase() === "srcset"

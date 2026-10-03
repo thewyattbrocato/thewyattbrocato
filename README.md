@@ -55,13 +55,17 @@ I build practical AI work systems for experienced professionals: rough inputs be
 
 ## Find me
 
-- **Website:** [wyattbrocato.site][website]
-- **Newsletter:** [subscribe to The AI Business Playbook][subscribe]
-- **LinkedIn:** [wyattbrocato][linkedin]
-- **GitLab:** [wcbrocato][gitlab]
+[![Website: wyattbrocato.site][badge-website]][website]
+[![Newsletter: The AI Business Playbook][badge-newsletter]][subscribe]
+[![LinkedIn: wyattbrocato][badge-linkedin]][linkedin]
+[![GitLab: wcbrocato][badge-gitlab]][gitlab]
 
 *Evidence before confidence. Build leverage.*
 
+[badge-gitlab]: https://img.shields.io/badge/GitLab-wcbrocato-FC6D26?style=flat-square&logo=gitlab&logoColor=white
+[badge-linkedin]: https://img.shields.io/badge/LinkedIn-wyattbrocato-0A66C2?style=flat-square&logo=linkedin&logoColor=white
+[badge-newsletter]: https://img.shields.io/badge/Newsletter-The_AI_Business_Playbook-073e31?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjMiIHk9IjUiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNCIgcng9IjIiLz48cGF0aCBkPSJtMyA3IDkgNiA5LTYiLz48L3N2Zz4%3D
+[badge-website]: https://img.shields.io/badge/Website-wyattbrocato.site-073e31?style=flat-square&logo=googlechrome&logoColor=white
 [csm-demo]: https://wcbrocato.gitlab.io/csm-kit/demo/
 [csm-kit]: https://github.com/thewyattbrocato/csm-kit
 [csm-output]: https://github.com/thewyattbrocato/csm-kit/blob/main/examples/example-renewal-brief.md
