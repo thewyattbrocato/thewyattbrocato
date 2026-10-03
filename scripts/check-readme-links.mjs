@@ -43,6 +43,8 @@ function parseMarkdownTargets(markdown, filePath) {
   const inlinePattern = /(!?)\[[^\]\n]*\]\(([^)\s]+)(?:\s+["'][^)]*["'])?\)/g;
   const referencePattern = /(!?)\[([^\]\n]+)\]\[([^\]\n]+)\]/g;
   const autoLinkPattern = /<((?:https?:\/\/|mailto:)[^>\s]+)>/g;
+  const htmlImageTagPattern = /<(?:img|source)\b[^>]*>/gi;
+  const htmlImageAttributePattern = /\s(src|srcset)\s*=\s*(["'])(.*?)\2/gi;
   let match;
 
   while ((match = inlinePattern.exec(markdown)) !== null) {
@@ -75,6 +77,23 @@ function parseMarkdownTargets(markdown, filePath) {
       rawTarget: match[1],
       isImage: false,
     });
+  }
+
+  while ((match = htmlImageTagPattern.exec(markdown)) !== null) {
+    for (const [, attribute, , value] of match[0].matchAll(htmlImageAttributePattern)) {
+      const candidates =
+        attribute.toLowerCase() === "srcset"
+          ? value.split(",").map((candidate) => candidate.trim().split(/\s+/)[0])
+          : [value.trim()];
+
+      for (const rawTarget of candidates.filter(Boolean)) {
+        targets.push({
+          source: filePath,
+          rawTarget,
+          isImage: true,
+        });
+      }
+    }
   }
 
   return targets;
