@@ -7,6 +7,8 @@
 
 # Wyatt Brocato
 
+**A PM testing AI on real work.**
+
 I build practical AI work systems for experienced professionals: rough inputs become work you can stand behind, with context, risk, and approval staying human.
 
 ## Start here
@@ -43,6 +45,9 @@ I build practical AI work systems for experienced professionals: rough inputs be
 - **Building:** AI Deal Finder. The live tool works today on stored, checked
   pages. Its agent skill, which returns one buy, wait, verify, or abstain
   decision, is still in validation, and no acceptance gate has passed yet.
+- **Writing:** The AI Business Playbook, a live newsletter. Each issue is a
+  workflow, its judgment check, and one small experiment.
+  [Subscribe on the signup page][subscribe].
 - **Focus:** practical systems for Customer Success, workflow design, and
   evidence-led decisions.
 - **Point of view:** use automation for structure and repetition; keep
@@ -51,7 +56,7 @@ I build practical AI work systems for experienced professionals: rough inputs be
 ## Find me
 
 - **Website:** [wyattbrocato.site][website]
-- **Newsletter:** [The AI Business Playbook][subscribe]
+- **Newsletter:** [subscribe to The AI Business Playbook][subscribe]
 - **LinkedIn:** [wyattbrocato][linkedin]
 - **GitLab:** [wcbrocato][gitlab]
 
