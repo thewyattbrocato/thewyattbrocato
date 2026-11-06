@@ -1,21 +1,36 @@
 # Pinned-project recommendation
 
-GitHub pins should show the strongest public engineering proof, not every
-product named in the profile. This recommendation uses only repositories that
-are public on GitHub today.
+GitHub pins should show the strongest public proof, not every product named in
+the profile. This recommendation uses only repositories that are public on
+GitHub today, and it matches the pins on the profile as of 2026-11-06.
 
-## Pin now
+## Pinned now
 
-1. **[csm-kit](https://github.com/thewyattbrocato/csm-kit)**: strongest end-to-end
-   product proof. It has committed demo code and generated output, concise
-   setup, deterministic behavior tests, architecture visuals, and a clear
-   trust mechanism.
+1. **[design-and-copy-skills](https://github.com/thewyattbrocato/design-and-copy-skills)**:
+   38 design and copywriting skills for AI coding agents. Each was tested
+   against the same agent without it, and its README discloses the losses and
+   the marginal results.
+2. **[ai-deal-finder](https://github.com/thewyattbrocato/ai-deal-finder)**: an
+   agent skill that helps everyday shoppers find legitimate deals and coupons
+   with transparent evidence, with a
+   [live example search](https://thewyattbrocato.github.io/ai-deal-finder/)
+   over a fixed set of checked store pages.
+3. **[ai-leverage-field-guide-site](https://github.com/thewyattbrocato/ai-leverage-field-guide-site)**:
+   reviewed static output for the AI Leverage Field Guide, live at
+   [thewyattbrocato.github.io/ai-leverage-field-guide-site](https://thewyattbrocato.github.io/ai-leverage-field-guide-site/).
+
+## Public, linked from the README, not pinned
+
+- **[csm-kit](https://github.com/thewyattbrocato/csm-kit)**: end-to-end product
+  proof with committed demo code and generated output, concise setup,
+  deterministic behavior tests, architecture visuals, and a clear trust
+  mechanism. The profile README links it directly.
 
 ## Do not pin yet
 
-- **scamfirstaid**, **ai-leverage-field-guide**, and **leverage-library** should
-  wait until their public GitHub repositories and live surfaces verify cleanly
-  from an unauthenticated check.
+- **scamfirstaid** and **leverage-library** should wait until their public
+  GitHub repositories and live surfaces verify cleanly from an unauthenticated
+  check.
 - **CSE Command Center**, **Wizard101 Battle Advisor**, **CCFT**, and
   **developer bootstrap** do not currently have verified public GitHub
   repositories. Mention them in the profile without implying open source.
